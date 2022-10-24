@@ -1,0 +1,21 @@
+package comparing_with_java
+
+class Person_Scala_v3 (
+               var firstName: String,
+               var lastName: String,
+               var age: Int
+             ) {
+  // zero-arg auxiliary constructor
+  def this() = this("", "", 0)
+
+  // one-arg auxiliary constructor
+  def this(firstName: String) = this(firstName, "", 0)
+
+  // two-arg auxiliary constructor
+  def this(firstName: String, age: Int) = this(firstName, "", age)
+
+  override def toString: String = "Person_Scala{" + "firstName='" + firstName + '\'' + ", lastName='" + lastName + '\'' + ", age=" + age + '}';
+}
+
+
+
