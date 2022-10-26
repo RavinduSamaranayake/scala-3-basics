@@ -1,4 +1,4 @@
-package comparing_with_java
+package comparing_with_java.classes
 
 class Person_Scala_V2 (
 var firstName: String,

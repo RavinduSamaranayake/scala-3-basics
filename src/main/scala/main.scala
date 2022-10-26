@@ -1,4 +1,4 @@
-import comparing_with_java.{Person_Java, Person_Scala_v3, Person_Scala_V2}
+import comparing_with_java.classes.{Person_Java, Person_Scala_V2, Person_Scala_v3}
 
 @main
 def main(): Unit = {

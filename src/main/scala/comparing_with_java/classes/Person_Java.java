@@ -1,4 +1,4 @@
-package comparing_with_java;
+package comparing_with_java.classes;
 
 public class Person_Java {
     public String firstName;
